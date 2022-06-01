@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
-html {width: 1200px;
-    height: 1500px;
-    margin: auto;
+html {margin: auto;
     padding: 0px;
     border: 2px;
     background-image: linear-gradient(burlywood,rgb(236, 173, 91));
@@ -30,14 +28,10 @@ p {font-size: 14px;
 
 
 body {float: left;
-    width: 250px;
-    height: 1000px;
     margin: 3px;}
 
 
 header {float: left;
-    width: 1120px;
-    height: 120px;
     margin: 0px 0px 10px 30px;
     border: 2px;
     background-image: linear-gradient(rgb(245, 144, 119),rgb(205, 109, 92));}
@@ -60,8 +54,6 @@ header {float: left;
 
 
 nav {float: left;
-    width: 1100px;
-    height: 60px;
     margin-left: 40px;
     border: 2px;
     border-color: gray;
@@ -69,23 +61,17 @@ nav {float: left;
     background-color:rgb(185, 161, 161)}
 
 .menu {float: left;
-    width: 155px;
-    height: 50px;
     padding-top: 15px;
     text-align: center;
     font-size: 18px;}
 
 
 main {float: left;
-    width: 1075px;
-    height: 1050px;
     margin: 5px 0px 10px 50px;
     border: 4px inset rgb(245, 220, 174);
     background-color:wheat}
 
 .filtro {float: left;
-    width: 200px;
-    height: 120px;
     margin-left: 50px;
     padding-top: 2px;
     border: 2px solid dimgray;
@@ -93,8 +79,6 @@ main {float: left;
     font-size: 20px;}
 
 .escolhas {float: left;
-    width: 250px;
-    height: 120px;
     padding-top: 2px;
     border-width: 2px 2px 2px 0px;
     border-style: solid;
@@ -120,16 +104,12 @@ ul input {width: 130px;
     border-radius: 20px;}
 
 footer {float: left;
-    width: 1180px;
-    height: 200px;
     margin-left: 0px;
     padding-left: 0px;
     border: 2px solid gray;
     background-image: linear-gradient(rgb(236, 165, 95),peru)}
 
 .foot {float: left;
-    width: 285px;
-    height: 160px;
     margin: 10px 3px 5px 3px;
     border: 2px;
     padding-top: 10px;
