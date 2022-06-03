@@ -1,61 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;1,100&display=swap');
 
-html {margin: auto;
-    padding: 0px;
+html {padding: 0px;
     border: 2px;
     background-image: linear-gradient(burlywood,rgb(236, 173, 91));
     font-family: 'Barlow', sans-serif;
     }
 
-a {text-decoration: none;
-    color: black}
+a {text-decoration: none !important;
+    color: black !important;}
 
 h1 {font-size:24px;
     text-align:center;}
 h2 {font-size: 18px;
     text-align:center;
     text-decoration: none;}
-h3 {font-size:36px;
-    text-align:center;}
+h3 {text-align:center;}
+h4 {font-size: 21px;
+    text-align:left;
+    text-decoration: none;}
 p {font-size: 14px;
     text-align:left}
 
 
 
-body {float: left;
+body {float: left;;
     margin: 3px;
-    background-image: linear-gradient(burlywood,rgb(236, 173, 91));}
+    background-image: linear-gradient(burlywood,rgb(236, 173, 91))}
 
 
 header {float: left;
-    border: 2px;
-    background-image: linear-gradient(rgb(245, 144, 119),rgb(205, 109, 92));}
+    margin: 0px 0px 0px 30px;
+    border: 2px solid rgb(155, 82, 69);
+    background-image: linear-gradient(rgb(235, 114, 84),rgb(165, 71, 54));}
 
 .logo {float: left;
-    margin: 10px;
     border: 2px solid brown;}
 .banner {float: left;
-    width: 750px;
-    height: 100px;
-    margin: 10px 10px 10px 20px;
+    margin: auto;
+    padding-top: 20px;
     border: 2px; font-family: 'Ms Madi', cursive;}
 .login {float: right;
-    width: 75px;
-    height: 50px;
-    margin: 5px;
+    margin:5px;
     font-size: 16px}
 
 
 nav {float: left;
     margin-left: 40px;
-    border: 2px solid brown;
+    border: 2px solid rgb(126, 68, 58);
+    background-image: linear-gradient(rgb(146, 146, 146),rgb(177, 177, 177));
     background-color:rgb(185, 161, 161)}
 
 .menu {float: left;
-    width: 155px;
     height: 50px;
-    padding-top: 15px;
+    padding-top: 5px;
     text-align: center;
     font-size: 18px;}
 
@@ -64,8 +62,9 @@ main {float: left;
     min-height: 500px;
     margin: 5px 0px 10px 50px;
     padding-top: 20px;
+    padding-bottom: 10px;
     border: 4px inset rgb(245, 220, 174);
-    background-color:wheat}
+    background-image: linear-gradient(wheat,rgb(230, 173, 100))}
 
 .pesquisa {margin:10px;}
 fieldset {float: left;
@@ -99,13 +98,12 @@ input[type=submit] {width: 50px;
     background-color:rgb(253, 234, 197);
     font-size: 20px;}
 
-
 footer {float: left;
     margin-left: 0px;
     padding-left: 0px;
-    border: 2px solid black;
+    border: 2px solid gray;
     background-image: linear-gradient(rgb(236, 165, 95),peru)}
-
+        
 .foot {float: left;
     width: 285px;
     height: 160px;

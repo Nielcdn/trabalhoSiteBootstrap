@@ -32,23 +32,23 @@ body {float: left;;
 header {float: left;
     margin: 0px 0px 0px 30px;
     border: 2px solid rgb(155, 82, 69);
-    background-image: linear-gradient(rgb(245, 144, 119),rgb(205, 109, 92));}
+    background-image: linear-gradient(rgb(235, 114, 84),rgb(165, 71, 54));}
 
 .logo {float: left;
-    margin: 10px;
     border: 2px solid brown;}
 .banner {float: left;
+    margin: auto;
     padding-top: 20px;
     border: 2px; font-family: 'Ms Madi', cursive;}
 .login {float: right;
-    margin: 5px;
+    margin:5px;
     font-size: 16px}
 
 
 nav {float: left;
     margin-left: 40px;
-    border: 2px solid rgb(155, 82, 69);
-    background-image: linear-gradient(rgb(165, 165, 165),rgb(143, 143, 143));
+    border: 2px solid rgb(126, 68, 58);
+    background-image: linear-gradient(rgb(146, 146, 146),rgb(177, 177, 177));
     background-color:rgb(185, 161, 161)}
 
 .menu {float: left;
@@ -91,10 +91,20 @@ input[type=submit] {
     background-color:rgb(253, 234, 197);
     font-size: 20px;}
 
-.link {float: left;
+.link1 {float: left;
     width: 400px;
     height: 100px;
-    margin: 20px 10px 40px 60px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(230, 148, 94);
+    border-radius: 10px;
+    background-color:rgb(253, 234, 197);
+    font-size: 20px;
+    text-decoration:underline}
+.link2 {float: right;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
     padding: 20px;
     border: 2px solid rgb(230, 148, 94);
     border-radius: 10px;
